@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+  <!DOCTYPE beans PUBLIC "-//SPRING//DTD BEAN//EN" "http://www.springframework.org/dtd/spring-beans.dtd">
+  <beans>  
+    <bean id="POIWPS_Pedestrian_Centralized" class="org.geoserver.wps.gs.POI_Pedestrian_Centralized"/>
+    <bean id="CrimeWPS_Pedestrian_Centralized" class="org.geoserver.wps.gs.Crime_Pedestrian_Centralized"/>
+    <bean id="AggregationWPS_Pedestrian_Centralized" class="org.geoserver.wps.gs.Aggregation_Pedestrian_Centralized"/>
+    <bean id="ManagementWPS_Pedestrian" class="org.geoserver.wps.gs.Management_Pedestrian"/>
+    <bean id="WalkshedWPS_Pedestrian_Centralized" class="org.geoserver.wps.gs.Walkshed_Pedestrian_Centralized"/>
+  </beans>
